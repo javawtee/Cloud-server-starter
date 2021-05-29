@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+nodemon.json
+package-lock.json
+Dockerfile
