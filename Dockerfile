@@ -2,9 +2,9 @@ FROM node:15
 
 RUN apt-get update
 
-# copy source codes to image
+# add source codes to image
 WORKDIR /server
-COPY ./package.json ./package.json
+ADD . .
 
 RUN npm install
 # persist node_modules
