@@ -9,6 +9,5 @@ COPY ./package.json ./package.json
 RUN npm install
 # persist node_modules
 VOLUME /server/node_modules
-EXPOSE 5000
 
 CMD npm start

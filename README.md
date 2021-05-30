@@ -2,4 +2,4 @@
 
 - Run `npm install`
 - Then, `npm run startdev`
-- Open [localhost:5000/app](http://localhost:5000/app) to start graphiql
+- Type http://localhost:<PORT>/app on browser to start graphiql
